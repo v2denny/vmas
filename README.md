@@ -4,8 +4,11 @@ Bettini, M., Kortvelesy, R., Blumenkamp, J., & Prorok, A. (2023). VMAS: A Vector
 
 
 1. we read the paper
-
 2. listed todo stuff
+3. replicated as well modified/enhanced/remade some code
+4. run things
+5. get results
+6. got same conclusions
 
 A. mpe vs vmas (DONE)
   - remade outdated code
