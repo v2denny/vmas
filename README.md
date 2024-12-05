@@ -22,13 +22,13 @@ B. rllib (TODO: use other ppo based things)
   - video rendering, etcc
 
 C. benchmarl (TODO: clean script, use other ppos)
-  -used too
-  -modification part
-  -show graphs
+  - used too
+  - modification part
+  - show graphs
 
 D. results
-  -show videos
-  -replication was difficult because outdated code
-  -ran good on gpu
-  -we concluded same things as them
-  -we enhanced/remade/modifies some of their code
+  - show videos
+  - replication was difficult because outdated code
+  - ran good on gpu
+  - we concluded same things as them
+  - we enhanced/remade/modifies some of their code
