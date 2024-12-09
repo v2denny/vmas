@@ -18,12 +18,14 @@ A. mpe vs vmas (DONE)
 
 B. rllib (TODO: use other ppo based things)
   - added stuff to original code
-  - modification part
+  - modification part:
   - video rendering, etcc
 
-C. benchmarl (TODO: clean script, use other ppos)
+C. benchmarl (DONE)
   - used too
-  - modification part
+  - made bmarl training script for 4 algs and 2 vmas envs
+  - made script to plot graphs
+  - modification part: used diff algs other than ppo
   - show graphs
 
 D. results
