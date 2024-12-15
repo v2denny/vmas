@@ -71,6 +71,8 @@ VMAS's source code was completely outdated, the visualization that was displayed
   - Results validated scalability benefits of vectorization.
   - Newer PyTorch's implementation had faster results.
   - The new software and hardware showed improved results but overall the same conclusions can be taken.
+<br>
+<br>
 
   | Paper's Graph | Replication |
   |:-------------:|:-----------:|
@@ -93,6 +95,8 @@ VMAS's source code was completely outdated, the visualization that was displayed
 - **Comparison**:
   - Even though it was not possible to replicate all the algorithms mentioned in the paper, the implemented PPO outperformed all the paper's algorithms.
   - Newer hardware made a 55% increase in the code performance.
+<br>
+<br>
 
   | Paper's Graph | Replication |
   |:-------------:|:-----------:|
@@ -113,7 +117,8 @@ VMAS's source code was completely outdated, the visualization that was displayed
   - BenchMarl outperformed RLlib in training speed and stability.
   - Allowed evaluation of a broader set of algorithms.
   - Both MADDPG and MASAC performed better that the algorithms cited in the paper.
-
+<br>
+<br>
 
   | Paper's Graph | Implementation |
   |:-------------:|:--------------:|
@@ -131,6 +136,8 @@ VMAS's source code was completely outdated, the visualization that was displayed
   - VMAS on GPU took longer than on CPU due to PyTorch's initialization and memory allocation.
   - Scalability benefits were consistent with the original findings.
   - The image below shows the total time to set up parallel environments (500, 1000, ..., 10000) on MPE and VMAS.
+<br>
+<br>
 
   ![vmas vs mpe](vmasmpe/mpe_vmas.png)
 <br>
@@ -141,7 +148,8 @@ VMAS's source code was completely outdated, the visualization that was displayed
   - RLlib's outdated implementation posed challenges in replicating results.
   - RLlib's PPO reached a stable reward by 80 training iterations while BenchMarl Algorithms only took around 25 iterations.
   - Overall the agents performed good, completed the task successfully and reached a stable reward.
-
+<br>
+<br>
 
   | RLlib's PPO | BenchMarl |
   |:-----------:|:---------:|
@@ -158,6 +166,8 @@ VMAS's source code was completely outdated, the visualization that was displayed
   - BenchMarl displays stable results across all algorithms. The episode length was capped at 150ts in contrary to RLlib's 300ts. This was done because BenchMarl was solely used for benchmarking purposes and to save computational resources.
   - RLlib's graph shows a big increase in reward around training iteration 100. This is due to the fact that by training iteration 100 the episode length was changed from 300ts to 600ts to give the agents more time to reach the goal.
   - In this environment the episode length is what influences the results the most. All algorithms performed equally good.
+<br>
+<br>
 
   | RLlib's PPO | BenchMarl |
   |:-----------:|:---------:|
