@@ -192,4 +192,4 @@ After significant modifications and enhancements, our implementation:
 ## References
 1. VMAS Paper: [VMAS: A Vectorized Multi-Agent Simulator for Collective Robot Learning](https://arxiv.org/pdf/2207.03530v2)
 2. VMAS GitHub: [proroklab/VectorizedMultiAgentSimulator](https://github.com/proroklab/VectorizedMultiAgentSimulator)
-3. BenchMarl Github: [facebookresearch/BenchMARL](https://github.com/facebookresearch/BenchMARL)
+3. BenchMarl Github: [facebookresearch/BenchMARL](https://github.com/facebookresearch/BenchMARL) 
