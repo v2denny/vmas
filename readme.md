@@ -40,7 +40,7 @@ The repository is divided into three main folders:
 ## Task Identification
 The key tasks identified for replication and enhancement were:
 
-1. **Comparison of VMAS and OpenAI MPE**:
+1. **Comparison between VMAS and OpenAI MPE**:
    - Demonstrate the scalability benefits of VMAS compared to MPE, running up to 30,000 parallel simulations in under 10 seconds.
    - Verify that VMAS is up to 100x faster than MPE.
    - Verify the computational efficiency of VMAS for multi-agent learning tasks on GPU versus CPU.
