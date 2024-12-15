@@ -72,16 +72,11 @@ VMAS's source code was completely outdated, the visualization that was displayed
   - Newer PyTorch's implementation had faster results.
   - The new software and hardware showed improved results but overall the same conclusions can be taken.
 
-  <div style="display: flex; justify-content: space-between; align-items: center;">
-    <div style="text-align: center;">
-      <img src="vmasmpe/paper_graph.png" alt="Paper's Graph" height="250">
-      <p>Paper's Graph</p>
-    </div>
-    <div style="text-align: center;">
-      <img src="vmasmpe/comparison_graph.png" alt="Approach Graph" height="250">
-      <p>Replication</p>
-    </div>
-  </div>
+  | Paper's Graph | Replication |
+  |:-------------:|:-----------:|
+  | <img src="vmasmpe/paper_graph.png" height="250"> | <img src="vmasmpe/comparison_graph.png" height="250"> |
+
+  
 
 
 ### B. RLlib Experiments
@@ -99,16 +94,10 @@ VMAS's source code was completely outdated, the visualization that was displayed
   - Even though it was not possible to replicate all the algorithms mentioned in the paper, the implemented PPO outperformed all the paper's algorithms.
   - Newer hardware made a 55% increase in the code performance.
 
-  <div style="display: flex; justify-content: space-between; align-items: center;">
-    <div style="text-align: center;">
-      <img src="rllib/balance_org.png" alt="Paper's Graph" height="250">
-      <p>Paper's Graph</p>
-    </div>
-    <div style="text-align: center;">
-      <img src="rllib/balance.png" alt="Approach Graph" height="250">
-      <p>Replication</p>
-    </div>
-  </div>
+  | Paper's Graph | Replication |
+  |:-------------:|:-----------:|
+  | <img src="rllib/balance_org.png" height="250"> | <img src="rllib/balance.png" height="250"> |
+
 
 ### C. BenchMarl Experiments
 - **Implementation**: Made new code that uses [BenchMarl](https://github.com/facebookresearch/BenchMARL) for faster, more reliable MARL experiments. BenchMARL is a training library created to enable reproducibility and benchmarking across different MARL algorithms and environments.
@@ -125,16 +114,14 @@ VMAS's source code was completely outdated, the visualization that was displayed
   - Allowed evaluation of a broader set of algorithms.
   - Both MADDPG and MASAC performed better that the algorithms cited in the paper.
 
-  <div style="display: flex; justify-content: space-between; align-items: center;">
-    <div style="text-align: center;">
-      <img src="rllib/balance_org.png" alt="Paper's Graph" height="250">
-      <p>Paper's Graph</p>
-    </div>
-    <div style="text-align: center;">
-      <img src="bmarl/balance_episode_reward_mean.png" alt="Approach Graph" height="250">
-      <p>Implementation</p>
-    </div>
-  </div>
+
+  | Paper's Graph | Implementation |
+  |:-------------:|:--------------:|
+  | <img src="rllib/balance_org.png" height="250"> | <img src="bmarl/balance_episode_reward_mean.png" height="250"> |
+
+
+
+
 <br>
 <br>
 
@@ -155,20 +142,15 @@ VMAS's source code was completely outdated, the visualization that was displayed
   - RLlib's PPO reached a stable reward by 80 training iterations while BenchMarl Algorithms only took around 25 iterations.
   - Overall the agents performed good, completed the task successfully and reached a stable reward.
 
-  <div style="display: flex; justify-content: space-between; align-items: center;">
-    <div style="text-align: center;">
-      <img src="rllib/balance.png" alt="Paper's Graph" height="250">
-      <p>RLlib's PPO</p>
-    </div>
-    <div style="text-align: center;">
-      <img src="bmarl/balance_episode_reward_mean.png" alt="Approach Graph" height="250">
-      <p>BenchMarl</p>
-    </div>
-  </div>
-  <div style="text-align: center; margin-top: 20px;">
-    <img src="rllib/balance.gif" alt="Third Graph" height="400">
-    <p>Learned Policy</p>
-  </div>
+
+  | RLlib's PPO | BenchMarl |
+  |:-----------:|:---------:|
+  | <img src="rllib/balance.png" height="250"> | <img src="bmarl/balance_episode_reward_mean.png" height="250"> |
+
+  <p align="center">
+    <img src="rllib/balance.gif" alt="Learned Policy" height="400">
+    <br> Learned Policy
+  </p>
 <br>
 <br>
 
@@ -177,20 +159,16 @@ VMAS's source code was completely outdated, the visualization that was displayed
   - RLlib's graph shows a big increase in reward around training iteration 100. This is due to the fact that by training iteration 100 the episode length was changed from 300ts to 600ts to give the agents more time to reach the goal.
   - In this environment the episode length is what influences the results the most. All algorithms performed equally good.
 
-  <div style="display: flex; justify-content: space-between; align-items: center;">
-    <div style="text-align: center;">
-      <img src="rllib/rt.png" alt="Paper's Graph" height="250">
-      <p>RLlib's PPO</p>
-    </div>
-    <div style="text-align: center;">
-      <img src="bmarl/reverse_transport_episode_reward_mean.png" alt="Approach Graph" height="250">
-      <p>BenchMarl</p>
-    </div>
-  </div>
-  <div style="text-align: center; margin-top: 20px;">
-    <img src="rllib/reverse_transport.gif" alt="Third Graph" height="400">
-    <p>Learned Policy</p>
-  </div>
+  | RLlib's PPO | BenchMarl |
+  |:-----------:|:---------:|
+  | <img src="rllib/rt.png" height="250"> | <img src="bmarl/reverse_transport_episode_reward_mean.png" height="250"> |
+
+  <p align="center">
+    <img src="rllib/reverse_transport.gif" alt="Learned Policy" height="400">
+    <br> Learned Policy
+  </p>
+<br>
+<br>
 
 
 ## Outcome
